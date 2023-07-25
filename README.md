@@ -1,12 +1,4 @@
-[EN](#Netwokring-Fundamentals)  [ES]()
+# Cisco Certified Network Associate (CCNA)
 
-# Networking-Fundamentals
-
-En este repositario, documento la informacion importante para poder comprender los fundamentos del Networking y temas importantes que se ven en la certificacion de CCNA
-* [Network Fundamentals]()
-* [Switching]()
-* [Routing]()
-* [IP Services]()
-* [Security]()
-* [Network Programmability]()
-
+### Utiliza este link para empezar a ver los temas relacionados con el examen de certificación de CCNA de cisco.
+[CCNA TEMAS](#) 
