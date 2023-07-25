@@ -7,4 +7,4 @@
   <img width="70%" height="70%" src="images/cisco_certified_ccna.jpg">
 </p>
 
-> El prosito de este repositorio es compartir una guia rapida y sencilla de los temas de CCNA.
+> El proposito de este repositorio es compartir una guia rapida y sencilla de los temas de CCNA.
