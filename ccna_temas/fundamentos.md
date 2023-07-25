@@ -1,3 +1,7 @@
+
+| [Index](Index.md) | [Inicio](../README.md) | [Internet Protocol (IPv4)](ip_address.md)
+| --- | --- | --- |
+
 # Fundamentos de red
 
 ## Conceptos básicos
@@ -97,3 +101,46 @@ Los dispositivos necesitan seguir ciertas reglas y estándares para comunicarse 
 
 Cuando todos estos elementos funcionan correctamente juntos, los dispositivos pueden comunicarse entre sí de manera rápida y eficiente, lo que permite que los datos se transmitan y procesen en tiempo real.
 
+#### Encapsulation
+La **encapsulation** es un concepto esencial en redes de computadoras que se refiere al proceso de agregar encabezados a los datos mienrtas se transmiten a travós de la red. Uno de los beneficios de la encapsulación es que permite la segmentacion de paquetes de datos más grandes en paquetes más pequeños, lo que puede aumentar la velocidad y eficiencia de la transmision de datos.
+
+La **Sequencing** es un aspecto importante de la encapsulación. **Transmission Control Protocol (TCP)** es un protocolo común que secuencia los mensajes para ensambrarlos en el orden correcto. Esto permite que sea una transmisión de datos confiable. como la transferencia de archivos o de video.
+
+**Protocol Data Unit**, de esta manera se nombran según su función en la red. Por ejemplo, un bit es la unidad más pequeña de datos, mientras que un marco, paquete, segmento y datos son unidades que contienen multiples bits.
+
+La **Encapsulation** ocurre de arriba hacia abajo, lo que significa que los datos se encapsulan en la capa más alta primero y luego se pasan a capas inferiores. La **Decapsulation** ocurre de abajo hacia arriba, lo que significa que los datos se desencapsulan en la capa más baja primero y luego se pasan a capas superiores.
+
+**Frame Check Sequence (FCS)** es un método para verificar si un marco se ensambla correctamente. Si bien no corrige errores, puede ayudar a detectar errores y garantizar que los datos se transmitan con precisión
+
+#### Bandwidth
+
+El **Bandwidth** se refiere a la cantidad máxima de datos que se pueden transmitir a través de una red en un momento dado. Sin embargo, hay varios factores que pueden afectar la cantidad real de datos que se transmiten, incluida la latencia, la tasa de transferencia y el buenput.
+
+La **Latency** se refiere al retraso entre el momento en que se transmite los datos y el momento en que se reciben. Puede verse afectado por factores como la distancia, la congestión de la red y la calidad del medio de la red.
+
+La **Throughput** es la cantidad de datos que se pueden transmitir a través de una red en un período de tiempo determinado. Sin embargo, a menudo es menor que el ancho de banda debido a factores como la latencia, la congestión de la red y la capacidad de los dispositivos de red.
+
+El **Goodput** es la cantidad de datos útiles que se transmiten a través de una red en un período de tiempo determinado. A menudo es menor que la tasa de transferencia debido a factores como la pérdida de paquetes, la sobrecarga de datos y los errores de transmisión.
+
+La **Bitrate**es la velocidad a la que se transmiten los bits a través de una red, mientras que el ancho de banda se refiere a la capacidad total de la red para transmitir datos en cualquier momento dado.
+
+#### Demarcation point
+
+Un **Demarcation point** es un punto físico en una red donde termina la red externa o de telefonía y comienza la red local. Por lo general, se encuentra en el punto donde el equipo del proveedor de servicios se conecta al equipo del cliente.
+
+En las redes modernas, el punto de demarcación suele ser un módem. El módem sirve como puerta de enlace entre la red del proveedor de servicios y la red local del cliente, lo que permite que los dispositivos dentro de la red local accedan a Internet.
+
+**Demilitarized Zone (DMZ)** es una parte de la red de una empresa que contiene recursos disponibles para Internet, como un servidor web. Los dispositivos en la DMZ utilizan direcciones IPv4 públicas, lo que les permite ser accesibles desde Internet sin comprometer la seguridad de la red interna de la empresa.
+
+#### Peer-to-Peer
+
+En los modelos **client-server**, el cliente solicita información al servidor y el servidor la proporciona. Este modelo se utiliza comúnmente en navegación web, correo electrónico y otras aplicaciones donde un usuario necesita acceder a información desde un servidor.
+
+En contraste, una red **peer-to-peer (P2P)** es una red descentralizada donde todos los dispositivos están conectados entre sí y pueden compartir servicios. En una red P2P, no hay un servidor dedicado y todos los dispositivos pueden funcionar como clientes y servidores.
+
+Las redes P2P se utilizan comúnmente para compartir archivos, donde los usuarios pueden descargar y cargar archivos directamente desde y hacia otros usuarios en la red. Las aplicaciones P2P también se utilizan para juegos en línea, transmisión de video y otras aplicaciones donde los usuarios necesitan conectarse directamente entre sí. Sin embargo, las redes P2P también se pueden utilizar para actividades ilegales, como compartir material con derechos de autor o distribuir malware.
+
+Los ejemplos de aplicaciones P2P incluyen BitTorrent, Direct Connect, eDonkey y Freenet.
+
+| [Index](Index.md) | [Inicio](../README.md) | [Internet Protocol (IPv4)](ip_address.md)
+| --- | --- | --- |
